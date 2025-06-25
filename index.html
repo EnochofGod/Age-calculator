@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Age calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <div class="box">
+        <div class="calander" id="calander">
+        <span>
+            <p class="warn">DAY</p>
+            <input type="number" placeholder="DD" id="day">
+            <div class="warning">Must be a valid day</div>
+        </span>
+        <span>
+             <p class="warn">MONTH</p>
+            <input type="number" placeholder="MM" id="month">
+            <div class="warning">Must be a valid month</div>
+        </span>
+        <span>
+             <p class="warn">YEAR</p>
+            <input type="number" placeholder="YYYY" id="year">
+            <div class="warning">Must be a valid year</div> 
+        </span>
+        </div> 
+        <div class="calc">
+            <p class="calc-line"></p>
+            <div class="calc-arrow" id="calc">
+            <img src="images/icon-arrow.svg" alt="icon-arrow">
+            </div>
+        </div>
+        <div class="results">
+            <div class="result">
+                <span id="years_res">--</span>
+                years
+            </div>
+            <div class="result"> 
+                <span id="months_res">--</span>
+                months
+            </div>
+            <div class="result">
+                <span id="days_res">--</span>
+                days
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
